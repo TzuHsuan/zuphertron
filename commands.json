@@ -1,0 +1,32 @@
+{
+    "#zuphest": {
+        "hello": {
+            "module": "say",
+            "alias": [
+                "安安"
+            ],
+            "premission": null,
+            "send": "direct",
+            "params": [
+                "`${tags.username} 安安！`"
+            ],
+            "enabled": true
+        },
+        "roll": {
+            "module": "roll",
+            "premission": null,
+            "send": "queue",
+            "params": [],
+            "enabled": true
+        },
+        "calc": {
+            "module": "calc",
+            "premission": [
+                "mod"
+            ],
+            "send": "direct",
+            "params": [],
+            "enabled": true
+        }
+    }
+}
