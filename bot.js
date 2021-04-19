@@ -94,3 +94,9 @@ client.on('message', (channel, tags, message, self) => {
 		}*/
 	}
 });
+
+/*
+client.on('join', (channel, username) => {
+	rateLimitSay(channel, `${username} has joined`);
+})
+*/
